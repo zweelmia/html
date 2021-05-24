@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>Kivabe.com</title>
+	<link rel="stylesheet" href="css/preloader.css">
+	<link rel="stylesheet" href="slick/slick.css">
+	<link rel="stylesheet" href="slick/slick-theme.css"> 
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="icon" href="image/kivabe-logo.png">
+</head>
+<body>
+
+	<!-- preloader -->
+	<div class="preloader">
+		<div class="preloader-inner">
+			<div class="item-1"></div>
+		</div> 
+	</div>
+	<!-- preloader end -->
+	
+
+	<div class="container">
+		<!-- header start -->
+		<div class="header">
+			<div class="logo">
+				<a href="index.html">
+					<img src="image/kivabe-logo.png" alt="Project Logo">
+				</a>
+			</div>
+			<div class="userarea">
+				<a href="login.html">Log In</a> or
+				<a href="signup.html">Sign Up</a>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+		<!-- header end -->
+
+
+
+		<!-- Menu Section -->
+		<div class="menucontainer">
+			<nav class="menu">
+				<div id="menutrigger">
+					<span></span>
+				</div>
+				<ul> 
+					<li><a href="index.html">Home</a></li>
+					<li><a href="about.html">About Us</a></li>
+					<li><a href="work.html">Our Work</a></li>
+					<li><a href="contact.html">Contact Us</a></li>
+					<li>
+						<a href="#">Others</a>
+						<ul class="sub-menu">
+							<li><a href="single.html">Single Page</a></li>
+							<li><a href="blog.html">Our Blog</a></li>
+							<li>
+								<a href="#">Another Menu</a> 
+								<ul class="sub-menu">
+									<li><a href="single.html">Single Page</a></li>
+									<li><a href="blog.html">Our Blog</a></li>
+								</ul> 
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</nav>
+		</div><!-- /.menucontainer -->
+		<!-- Menu Section End -->
+
+
+
+		<!-- banner section -->
+		<div class="banner top-slider">
+			<div class="item">
+				<img src="image/slider/slide-1.jpg" alt="Slide 1">
+				<h2 class="item-title">Natural Beauty of Bangladesh</h2> 
+			</div><!-- /.item -->
+			<div class="item">
+				<img src="image/slider/slide-2.jpg" alt="Slide 2">
+				<h2 class="item-title">Natural Beauty of Bangladesh</h2>
+			</div><!-- /.item -->
+			<div class="item">
+				<img src="image/slider/slide-3.jpg" alt="Slide 3">
+				<h2 class="item-title">Natural Beauty of Bangladesh</h2>
+			</div><!-- /.item -->
+		</div>
+		<!-- banner section End-->
+
+
+
+		<!-- latest post section -->
+		<div class="latest-post-sec">
+			<div class="row">
+				<div class="col-4">
+					<article class="post">
+						<img src="image/post/post-1.jpg" alt="Post 1">
+						<h2 class="post-title">
+							<a href="single.html">
+								Post title will be here
+							</a>
+						</h2>
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis illo, delectus nam totam dolores ullam 
+						</p> 
+					</article>
+				</div><!-- /.col-4 --> 
+
+
+				<div class="col-4">
+					<article class="post">
+						<img src="image/post/post-2.jpg" alt="post 2">
+						<h2 class="post-title">
+							<a href="single.html">
+								Post title will be here
+							</a>
+						</h2>
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis illo, delectus nam totam dolores ullam 
+						</p>
+					</article>
+				</div><!-- /.col-4 --> 
+
+				<div class="col-4">
+					<article class="post">
+						<img src="image/post/post-3.jpg" alt="post 3">
+						<h2 class="post-title">
+							<a href="single.html">
+								Post title will be here
+							</a>
+						</h2>
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis illo, delectus nam totam dolores ullam 
+						</p>
+					</article>
+				</div><!-- /.col-4 --> 
+
+				<div class="col-4">
+					<article class="post">
+						<img src="image/post/post-4.jpg" alt="post 4">
+						<h2 class="post-title">
+							<a href="single.html">
+								Post title will be here
+							</a>
+						</h2>
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis illo, delectus nam totam dolores ullam 
+						</p>
+					</article>
+				</div><!-- /.col-4 --> 
+			</div><!-- /.row -->
+			<div class="clearfix"></div>
+		</div><!-- /.latest-post-sec -->
+		<!-- latest post section --> 
+		
+
+		 <footer class="copyright text-center">
+		 	&copy; 2022 - All rights reserved by <a href="www.facebook.com/miaj2526">Jewel Mia</a> 
+		 </footer>
+	</div><!-- /.container -->
+
+	<script src="js/jquery-2.x-git.min.js"></script>
+	<script src="slick/slick.min.js"></script>
+	<script src="js/function.js"></script>
+
+	<script>
+		//for slider
+		$('.top-slider').slick({
+			dots: true,
+			infinite: true,
+			speed: 500,
+			fade: true,
+			cssEase: 'linear',
+			autoplay:true
+		});
+	</script>
+
+</body>
+</html>
